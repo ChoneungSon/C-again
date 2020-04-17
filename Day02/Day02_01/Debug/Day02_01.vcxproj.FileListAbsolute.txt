@@ -1,0 +1,2 @@
+D:\C++\Day02\Day02_01\Debug\Day02_01.exe
+D:\C++\Day02\Day02_01\Debug\Day02_01.pdb
