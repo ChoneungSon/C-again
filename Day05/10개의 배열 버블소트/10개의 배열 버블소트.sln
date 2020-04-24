@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10개의 배열 버블소트", "10개의 배열 버블소트.vcxproj", "{FE7AF199-B6E7-4354-96CA-2092B8B2F272}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE7AF199-B6E7-4354-96CA-2092B8B2F272}.Debug|x64.ActiveCfg = Debug|x64
+		{FE7AF199-B6E7-4354-96CA-2092B8B2F272}.Debug|x64.Build.0 = Debug|x64
+		{FE7AF199-B6E7-4354-96CA-2092B8B2F272}.Debug|x86.ActiveCfg = Debug|Win32
+		{FE7AF199-B6E7-4354-96CA-2092B8B2F272}.Debug|x86.Build.0 = Debug|Win32
+		{FE7AF199-B6E7-4354-96CA-2092B8B2F272}.Release|x64.ActiveCfg = Release|x64
+		{FE7AF199-B6E7-4354-96CA-2092B8B2F272}.Release|x64.Build.0 = Release|x64
+		{FE7AF199-B6E7-4354-96CA-2092B8B2F272}.Release|x86.ActiveCfg = Release|Win32
+		{FE7AF199-B6E7-4354-96CA-2092B8B2F272}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A86A5D5-A8E6-4948-9930-BBD776CA0C27}
+	EndGlobalSection
+EndGlobal

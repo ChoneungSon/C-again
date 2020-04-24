@@ -1,0 +1,2 @@
+D:\C++\Day05\소수구하기\Debug\소수구하기.exe
+D:\C++\Day05\소수구하기\Debug\소수구하기.pdb

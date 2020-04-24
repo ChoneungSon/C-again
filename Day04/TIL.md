@@ -114,3 +114,31 @@ int main() {
 }
 ```
 
+```c
+#include <stdio.h>
+int main() {
+    int arr[2][3] = {{1,2,3}, {4,5,6}};
+    int brr[10][3];
+    int crr[2][5];
+    
+    int (*parr)[3] = &arr; // parr는 원소가 2개인 배열을 참조하고, 각각의 원소들의 길이는 3인 것으로 해석이 가능하다.
+    
+    parr = arr; // parr가 참조하는 원소의 길이가 3 이므로 ok
+    parr = brr; // 위와 같음
+    parr = crr; // parr가 참조하는 원소의 길이가 5 이므로 오류 발생
+    
+    return 0;
+}
+```
+
+* 포인터 배열
+
+```c
+#include <stdio.h>
+int main() {
+    int* arr[3]; // int* 형 변수를 받는 배열을 정의 배열의 원소들을 포인터가 저장된다.
+    
+    return 0;
+}
+```
+
