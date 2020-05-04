@@ -1,0 +1,2 @@
+D:\C++\Day07\단어찾기\Debug\단어찾기.exe
+D:\C++\Day07\단어찾기\Debug\단어찾기.pdb
