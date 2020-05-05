@@ -1,0 +1,2 @@
+C:\Users\Son\source\repos\practice\Debug\practice.exe
+C:\Users\Son\source\repos\practice\Debug\practice.pdb
