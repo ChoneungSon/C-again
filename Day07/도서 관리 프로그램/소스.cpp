@@ -48,23 +48,21 @@ int add(char (*name_arr)[30], char (*author_arr)[30], char (*publish_arr)[30]) {
 	return 0;
 }
 int same(char* word, char* find_word) {
-	printf("%c %c\n", *word, *find_word);
 	while (*word) {
 		if (*word != *find_word) return 1;
 		word++; find_word++;
 	}
-	if (*find_word == '\0') return 1;
-	return 0;
+	if (*find_word == '\0') return 0;
+	return 1;
 }
 int find(char(*name_arr)[30], char(*author_arr)[30], char(*publish_arr)[30], int method) {
-	char (*temp)[30]; int i=0; char word;
+	char (*temp)[30]; int i=0; char word[30];
 	printf("검색 단어를 입력하세요. : ");
-	scanf_s("%s", &word, sizeof(word));
-	//if (method == 1) temp = name_arr;
-	//else if (method == 2) temp = author_arr;
-	//else temp = publish_arr;
-	while (same(name_arr[i], &word) && i < 100) {
-		printf("%d \n", i);
+	scanf_s("%s", word, sizeof(word));
+	if (method == 1) temp = name_arr;
+	else if (method == 2) temp = author_arr;
+	else temp = publish_arr;
+	while (same(temp[i], word) & (i < 100)) {
 		i++;
 	}
 	if (i >= 100) printf("도서를 찾을 수 없습니다.\n");

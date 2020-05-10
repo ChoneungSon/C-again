@@ -1,2 +1,4 @@
 C:\Users\Son\source\repos\도서 관리 프로그램\Debug\도서 관리 프로그램.exe
 C:\Users\Son\source\repos\도서 관리 프로그램\Debug\도서 관리 프로그램.pdb
+D:\C++\Day07\도서 관리 프로그램\Debug\도서 관리 프로그램.exe
+D:\C++\Day07\도서 관리 프로그램\Debug\도서 관리 프로그램.pdb
