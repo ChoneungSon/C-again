@@ -4,22 +4,21 @@
 
 int max(int num1, int num2);
 int main() {
-	int n, i, input, max_value;
-	int sum1[10001], sum2[10001];
+	int n, i, input, max_value = 0;
+	int arr[10001], sum[10001];
 
 	scanf_s("%d", &n);
 
 	for (i = 1; i < n + 1; i++) { 
-		scanf_s("%d", &input);
-		if (i == 1) { sum1[i] = sum2[i] = input; max_value = input; }
+		scanf_s("%d", &input); arr[i] = input;
+		if (i == 1) { sum[i] = input; }
+		else if (i == 2) { sum[i] = arr[i - 1] + input; }
 		else { 
-			sum1[i] = sum2[i - 1] + input;
-			sum2[i] = input + max(sum2[i - 2], sum1[i - 2]); 
-			max_value = max(max_value, max(sum1[i], sum2[i]));
+			sum[i] = max(arr[i] + arr[i - 1] + sum[i - 3], max(sum[i-1], sum[i - 2] + arr[i]));
 		}
 	}
 
-	printf("%d", max_value);
+	printf("%d", sum[n]);
 
 	return 0;
 }
