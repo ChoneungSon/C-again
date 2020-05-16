@@ -1,0 +1,2 @@
+D:\C++\Day12\레퍼런스\Debug\레퍼런스.exe
+D:\C++\Day12\레퍼런스\Debug\레퍼런스.pdb

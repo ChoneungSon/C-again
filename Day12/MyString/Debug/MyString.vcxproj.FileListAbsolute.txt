@@ -1,0 +1,2 @@
+D:\C++\Day12\MyString\Debug\MyString.exe
+D:\C++\Day12\MyString\Debug\MyString.pdb

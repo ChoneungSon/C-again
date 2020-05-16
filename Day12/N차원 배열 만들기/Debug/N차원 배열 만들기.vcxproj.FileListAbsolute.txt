@@ -1,0 +1,2 @@
+D:\C++\Day12\N차원 배열 만들기\Debug\N차원 배열 만들기.exe
+D:\C++\Day12\N차원 배열 만들기\Debug\N차원 배열 만들기.pdb
