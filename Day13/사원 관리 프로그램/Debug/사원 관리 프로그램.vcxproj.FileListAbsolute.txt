@@ -1,0 +1,2 @@
+D:\C-again\Day13\사원 관리 프로그램\Debug\사원 관리 프로그램.exe
+D:\C-again\Day13\사원 관리 프로그램\Debug\사원 관리 프로그램.pdb

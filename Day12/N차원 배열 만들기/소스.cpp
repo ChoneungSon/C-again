@@ -2,15 +2,13 @@
 #include <iostream>
 
 class Array {
-	const int dim;
-
+public:
 	class Address {
 	public:
 		int level; void* next;
 	};
 	Address* top;
-
-public:
+	const int dim;
 	int* size;
 	Array(int dim, int* array_size) : dim(dim) {
 		size = new int[dim];
@@ -56,7 +54,16 @@ class Int {
 		if (_level < 1 || index >= array->size[_level - 1]) {
 			data = NULL; return;
 		}
-
+		if ( level == array->dim ) {
+			data = static_cast<void*>(
+				(static_cast<int*>(static_cast<Array::Address*>(data)->next)+index)
+				);
+		}
+		else {
+			data = static_cast<void*>(
+				static_cast<Array::Address*>(static_cast<Array::Address*>(data)->next)+index
+				);
+		}
 	}
 };
 
